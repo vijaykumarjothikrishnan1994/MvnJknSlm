@@ -11,7 +11,7 @@ public class Runprograme {
 	@Test
 	public void testRun() {
 		System.out.println("This is my First programe");
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Vijay Krishnan\\eclipse-workspace\\com.runmyfirsttestonjenkins\\lib\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\\\Users\\\\Vijay Krishnan\\\\eclipse-workspace\\\\com.runmyfirsttestonjenkins\\\\lib\\\\Mychrome\\\\chromedriver.exe");
 		 driver=new ChromeDriver();
 			driver.manage().window().maximize();
 			

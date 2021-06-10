@@ -25,6 +25,7 @@
   </dependencies>
    <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+     
       <plugins>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
         <plugin>
@@ -61,8 +62,13 @@
           </suiteXmlFiles>
         </configuration>
       </plugin>
-      
+      <plugin>
+  <groupId>org.eclipse.jetty</groupId>
+  <artifactId>jetty-maven-plugin</artifactId>
+  <version>9.2.11.v20150529</version>
+</plugin>
         </plugins>
+       
         
         </pluginManagement>
         </build>
